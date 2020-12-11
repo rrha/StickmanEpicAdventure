@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 824db289d11bb044c990687f4a6f9d37
+timeCreated: 1524165398
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Humblle Rought All Caps
+  fontNames:
+  - Humblle Rought All Caps
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

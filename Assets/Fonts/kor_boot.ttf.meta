@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 12ed41fe44852ef4f8c905133dffc150
+timeCreated: 1525214710
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: kor_boot
+  fontNames:
+  - kor_boot
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

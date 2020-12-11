@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 0aeac79f9e2b0cd45be9b1686ec13d41
+timeCreated: 1525214710
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: jpn_boot
+  fontNames:
+  - jpn_boot
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

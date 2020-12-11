@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 1fd18b2f6a9ac9f49b2572956b1fd2f4
+timeCreated: 1525214710
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: chs_boot
+  fontNames:
+  - chs_boot
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
