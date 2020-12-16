@@ -12,10 +12,9 @@ public class LevelUpHandle : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		if (!snakes[0].activeInHierarchy&&!snakes[1].activeInHierarchy){
+		if (!snakes[0].activeInHierarchy&&!snakes[1].activeInHierarchy&& nextLevelKey!=null)
+        {
 			nextLevelKey.SetActive (true);
-
 		}
-
 	}
 }
