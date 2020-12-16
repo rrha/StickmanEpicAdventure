@@ -12,7 +12,6 @@ public class SoundEffectsManager : MonoBehaviour {
 	[SerializeField] private AudioSource sFX7;
 	[SerializeField] private AudioSource sFX8;
 	[SerializeField] private AudioSource sFX9;
-	[SerializeField] private AudioSource sFX10;
 
 
 	public Toggle musicToggle;
@@ -29,7 +28,6 @@ public class SoundEffectsManager : MonoBehaviour {
 			sFX7.volume = 0;
 			sFX8.volume = 0;
 			sFX9.volume = 0;
-			sFX10.volume = 0;
 
 
 		} else if (PlayerPrefs.GetFloat ("Volume") == 1) {
@@ -42,7 +40,6 @@ public class SoundEffectsManager : MonoBehaviour {
 			sFX7.volume = 1;
 			sFX8.volume = 1;
 			sFX9.volume = 1;
-			sFX10.volume = 1;
 
 		}
 		
@@ -61,7 +58,6 @@ public class SoundEffectsManager : MonoBehaviour {
 			sFX7.volume = 0;
 			sFX8.volume = 0;
 			sFX9.volume = 0;
-			sFX10.volume = 0;
 
 		}
 		else if (musicToggle.isOn)
@@ -75,7 +71,6 @@ public class SoundEffectsManager : MonoBehaviour {
 			sFX7.volume = 1;
 			sFX8.volume = 1;
 			sFX9.volume = 1;
-			sFX10.volume = 1;
 
 		}
 
