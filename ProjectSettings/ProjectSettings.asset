@@ -165,7 +165,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.rhgames.stickmanepicadventure
-    Standalone: com.RHGames.stickmanepicadventure
+    Standalone: com.rhgames.stickmanepicadventure
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 16
@@ -762,7 +762,7 @@ PlayerSettings:
   cloudProjectId: cbf6361a-4841-47d2-bb16-7c5e9fc03bff
   framebufferDepthMemorylessMode: 0
   projectName: 'Stickman : Epic Adventure'
-  organizationId: rahprogrammer
+  organizationId: rhgames
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
