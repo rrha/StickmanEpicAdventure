@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class TestShare : MonoBehaviour
 {
-	public string share_Text;
+    public string share_Text;
     public void takeScreenShotAndShare()
     {
         StartCoroutine(takeScreenshotAndSave());
@@ -33,12 +33,12 @@ public class TestShare : MonoBehaviour
 
     private void shareScreenshot(string path)
     {
-		SunShineNativeShare.ShareSingleFile(path, SunShineNativeShare.TYPE_IMAGE, "Share Message", "Share Via");
+        SunShineNativeShare.ShareSingleFile(path, SunShineNativeShare.TYPE_IMAGE, "Share Message", "Share Via");
     }
 
     public void ShareText()
     {
-		SunShineNativeShare.ShareText(share_Text, "Share Via");
+        SunShineNativeShare.ShareText(share_Text, "Share Via");
     }
 
 
