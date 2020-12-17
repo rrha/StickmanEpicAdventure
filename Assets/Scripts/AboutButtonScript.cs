@@ -1,13 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class AboutButtonScript : MonoBehaviour {
-	public GameObject settingsMenu;
-	public GameObject aboutMenu;
+public class AboutButtonScript : MonoBehaviour
+{
+    public GameObject settingsMenu;
+    public GameObject aboutMenu;
 
-	public void About () {
-		settingsMenu.SetActive (false);
-		aboutMenu.SetActive (true);
-	}
+    public void About()
+    {
+        settingsMenu.SetActive(false);
+        aboutMenu.SetActive(true);
+    }
 }
