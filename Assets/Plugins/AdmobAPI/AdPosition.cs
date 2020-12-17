@@ -3,8 +3,8 @@ namespace admob
     // The position of the ad on the screen.
     public class AdPosition
     {
-      public static readonly int   ABSOLUTE = 0;
-      public static readonly int  TOP_LEFT = 1;
+        public static readonly int ABSOLUTE = 0;
+        public static readonly int TOP_LEFT = 1;
         public static readonly int TOP_CENTER = 2;
         public static readonly int TOP_RIGHT = 3;
         public static readonly int MIDDLE_LEFT = 4;
