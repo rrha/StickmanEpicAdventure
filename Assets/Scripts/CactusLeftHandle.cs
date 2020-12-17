@@ -1,38 +1,41 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class CactusLeftHandle : MonoBehaviour {
-	public float xAxis, yAxis,zAxis,speed,time;
-	public Transform endPoint;
-	public GameObject leftMonster;
-	void Awake()
-	{
+public class CactusLeftHandle : MonoBehaviour
+{
+    public float xAxis, yAxis, zAxis, speed, time;
+    public Transform endPoint;
+    public GameObject leftMonster;
 
-		InvokeRepeating("CreateObjects",time, 0f);
+    void Awake()
+    {
+        InvokeRepeating("CreateObjects", time, 0f);
+    }
 
-	}
+    void Start()
+    {
+        Vector3 Fishrotation = new Vector3(0, 0, zAxis);
+        transform.rotation = Quaternion.Euler(Fishrotation);
+    }
+    void CreateObjects()
+    {
+        Instantiate(this.gameObject, new Vector2(xAxis, yAxis), Quaternion.identity);
 
-	void Start (){
-		Vector3 Fishrotation = new Vector3 (0,0,zAxis);
-		transform.rotation = Quaternion.Euler (Fishrotation);
-	}
-	void CreateObjects()
-	{
-		Instantiate(this.gameObject, new Vector2(xAxis,yAxis), Quaternion.identity);
+    }
+    void Update()
+    {
+        Invoke("Move", 1f);
+        if (endPoint.position == transform.position)
+        {
+            Destroy(gameObject);
+        }
+        if (!leftMonster.activeInHierarchy)
+        {
+            Destroy(gameObject);
+        }
 
-	}
-	void Update (){
-		Invoke ("Move",1f);
-		if (endPoint.position == transform.position){
-			Destroy (gameObject);
-		}
-		if (!leftMonster.activeInHierarchy){
-			Destroy (gameObject);
-		}
-
-	}
-	void Move (){
-		transform.position = Vector2.MoveTowards (transform.position ,endPoint.position ,speed * Time.deltaTime);
-	}
+    }
+    void Move()
+    {
+        transform.position = Vector2.MoveTowards(transform.position, endPoint.position, speed * Time.deltaTime);
+    }
 }
