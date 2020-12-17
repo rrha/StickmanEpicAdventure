@@ -1,26 +1,31 @@
 ﻿using UnityEngine;
-public class GameManager : MonoBehaviour {
+public class GameManager : MonoBehaviour
+{
 
-	public void Exit (){
+    public void Exit()
+    {
 
-		Application.Quit ();
+        Application.Quit();
 
-	}
-	public void Youtube (){
+    }
+    public void Youtube()
+    {
 
-		Application.OpenURL ("");
+        Application.OpenURL("");
 
-	}
-	public void Facebook (){
+    }
+    public void Facebook()
+    {
 
-		Application.OpenURL ("");
+        Application.OpenURL("");
 
-	}	
-	public void Twitter (){
+    }
+    public void Twitter()
+    {
 
-		Application.OpenURL ("");
+        Application.OpenURL("");
 
-	}
+    }
 
-   
+
 }
