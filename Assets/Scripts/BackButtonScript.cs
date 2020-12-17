@@ -1,13 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class BackButtonScript : MonoBehaviour {
-	public GameObject currentMenu;
-	public GameObject upComingMenu;
-	public void Back () {
-		currentMenu.SetActive (false);
-		upComingMenu.SetActive (true);
-	}
+public class BackButtonScript : MonoBehaviour
+{
+    public GameObject currentMenu;
+    public GameObject upComingMenu;
+    public void Back()
+    {
+        currentMenu.SetActive(false);
+        upComingMenu.SetActive(true);
+    }
 
 }
