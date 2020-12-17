@@ -1,21 +1,19 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class EnablePasses : MonoBehaviour {
-	public WanderScript rightPass,middlePass,leftPass;
-	public float time;
+public class EnablePasses : MonoBehaviour
+{
+    public WanderScript rightPass, middlePass, leftPass;
+    public float time;
+    void Enable()
+    {
+        rightPass.enabled = true;
+        middlePass.enabled = true;
+        leftPass.enabled = true;
 
-	// Use this for initialization
-	void Enable () {
-		rightPass.enabled =true;
-		middlePass.enabled =true;
-		leftPass.enabled =true;
+    }
 
-	}
-
-	// Update is called once per frame
-	void Awake () {
-		Invoke ("Enable",time);
-	}
+    void Awake()
+    {
+        Invoke("Enable", time);
+    }
 }

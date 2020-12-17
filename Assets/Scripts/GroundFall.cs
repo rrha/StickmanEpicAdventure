@@ -1,22 +1,24 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class GroundFall : MonoBehaviour {
+public class GroundFall : MonoBehaviour
+{
     public float speed;
     Rigidbody2D rb;
-    void Start() { 
-       rb = this.GetComponent<Rigidbody2D>();
-    
+    void Start()
+    {
+        rb = this.GetComponent<Rigidbody2D>();
     }
-    void OnCollisionEnter2D(Collision2D data) { 
-       if (data.gameObject.CompareTag("Player")){
-           rb.gravityScale = speed ;
-           Invoke("DestroyObject",2);
-       }
+    void OnCollisionEnter2D(Collision2D data)
+    {
+        if (data.gameObject.CompareTag("Player"))
+        {
+            rb.gravityScale = speed;
+            Invoke("DestroyObject", 2);
+        }
     }
-    void DestroyObject() {
+    void DestroyObject()
+    {
         Destroy(gameObject);
-    
+
     }
 }

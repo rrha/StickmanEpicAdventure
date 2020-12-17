@@ -1,12 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class DontDestroyOnLoad_: MonoBehaviour {
+public class DontDestroyOnLoad_ : MonoBehaviour
+{
+    void Update()
+    {
+        DontDestroyOnLoad(gameObject);
 
-	// Update is called once per frame
-	void Update () {
-		DontDestroyOnLoad (gameObject);
-
-	}
+    }
 }
