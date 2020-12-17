@@ -1,50 +1,52 @@
 ﻿using UnityEngine;
 using System.Collections;
 using admob;
-public class admobdemo : MonoBehaviour {
-	 Admob ad;
-	 string appID="";
-	 string bannerID="";
-	 string interstitialID="";
-	 string videoID="";
-	 string nativeBannerID = "";
+public class admobdemo : MonoBehaviour
+{
+    Admob ad;
+    string appID = "";
+    string bannerID = "";
+    string interstitialID = "";
+    string videoID = "";
+    string nativeBannerID = "";
 
-	void Awake () {
-		initAdmob();
-	}
+    void Awake()
+    {
+        initAdmob();
+    }
 
-	void initAdmob()
-	{
-		#if UNITY_IOS
+    void initAdmob()
+    {
+#if UNITY_IOS
 		appID=" ";
 		bannerID= "";
 		interstitialID="";
 		videoID="";
 		nativeBannerID = "";
-		#elif UNITY_ANDROID
+#elif UNITY_ANDROID
 		appID="";
 		bannerID= "";
 		interstitialID="";
 		videoID="";
 		nativeBannerID = "";
-		#endif
+#endif
 
-		ad = Admob.Instance();
-		ad.bannerEventHandler += onBannerEvent;
-		ad.interstitialEventHandler += onInterstitialEvent;
-		ad.rewardedVideoEventHandler += onRewardedVideoEvent;
-		ad.nativeBannerEventHandler += onNativeBannerEvent;
-		ad.initSDK(appID);//optional
-		ad.initAdmob(appID,interstitialID );//all id are admob test id,change those to your
-		//ad.setTesting(true);//show test ad
-		//ad.setNonPersonalized(true);//if want load NonPersonalized only,set true
-		// ad.setIsDesignedForFamilies(true);//if is Is Designed For Families set true
-		// ad.setGender(AdmobGender.MALE);
-		//  string[] keywords = { "game","crash","male game"};
-		//  ad.setKeywords(keywords);//set keywords for ad
+        ad = Admob.Instance();
+        ad.bannerEventHandler += onBannerEvent;
+        ad.interstitialEventHandler += onInterstitialEvent;
+        ad.rewardedVideoEventHandler += onRewardedVideoEvent;
+        ad.nativeBannerEventHandler += onNativeBannerEvent;
+        ad.initSDK(appID);//optional
+        ad.initAdmob(appID, interstitialID);//all id are admob test id,change those to your
+                                            //ad.setTesting(true);//show test ad
+                                            //ad.setNonPersonalized(true);//if want load NonPersonalized only,set true
+                                            // ad.setIsDesignedForFamilies(true);//if is Is Designed For Families set true
+                                            // ad.setGender(AdmobGender.MALE);
+                                            //  string[] keywords = { "game","crash","male game"};
+                                            //  ad.setKeywords(keywords);//set keywords for ad
 
-	}
-	/*void OnGUI(){
+    }
+    /*void OnGUI(){
         if (GUI.Button(new Rect(120, 0, 100, 60), "showInterstitial"))
         {
            Debug.Log("touch inst button -------------");
@@ -95,47 +97,49 @@ public class admobdemo : MonoBehaviour {
             Admob.Instance().removeNativeBanner();
         }
 	}*/
-	public void ShowRewardedVideo (){
-		if (ad.isRewardedVideoReady())
-		{
-			ad.showRewardedVideo();
-		}
-		else
-		{
-			ad.loadRewardedVideo(videoID);
-		}
+    public void ShowRewardedVideo()
+    {
+        if (ad.isRewardedVideoReady())
+        {
+            ad.showRewardedVideo();
+        }
+        else
+        {
+            ad.loadRewardedVideo(videoID);
+        }
 
-	}
+    }
 
-	public void ShowInterstitial (){
-		if (ad.isInterstitialReady())
-		{
-			ad.showInterstitial();
-		}
-		else
-		{
-			ad.loadInterstitial();
-		}
-	}
+    public void ShowInterstitial()
+    {
+        if (ad.isInterstitialReady())
+        {
+            ad.showInterstitial();
+        }
+        else
+        {
+            ad.loadInterstitial();
+        }
+    }
 
-	void onInterstitialEvent(string eventName, string msg)
-	{
-		Debug.Log("handler onAdmobEvent---" + eventName + "   " + msg);
-		if (eventName == AdmobEvent.onAdLoaded)
-		{
-			Admob.Instance().showInterstitial();
-		}
-	}
-	void onBannerEvent(string eventName, string msg)
-	{
-		Debug.Log("handler onAdmobBannerEvent---" + eventName + "   " + msg);
-	}
-	void onRewardedVideoEvent(string eventName, string msg)
-	{
-		Debug.Log("handler onRewardedVideoEvent---" + eventName + "  rewarded: " + msg);
-	}
-	void onNativeBannerEvent(string eventName, string msg)
-	{
-		Debug.Log("handler onAdmobNativeBannerEvent---" + eventName + "   " + msg);
-	}
+    void onInterstitialEvent(string eventName, string msg)
+    {
+        Debug.Log("handler onAdmobEvent---" + eventName + "   " + msg);
+        if (eventName == AdmobEvent.onAdLoaded)
+        {
+            Admob.Instance().showInterstitial();
+        }
+    }
+    void onBannerEvent(string eventName, string msg)
+    {
+        Debug.Log("handler onAdmobBannerEvent---" + eventName + "   " + msg);
+    }
+    void onRewardedVideoEvent(string eventName, string msg)
+    {
+        Debug.Log("handler onRewardedVideoEvent---" + eventName + "  rewarded: " + msg);
+    }
+    void onNativeBannerEvent(string eventName, string msg)
+    {
+        Debug.Log("handler onAdmobNativeBannerEvent---" + eventName + "   " + msg);
+    }
 }
