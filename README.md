@@ -67,7 +67,7 @@
 
 I spent six months working on it!  
 This was my first game ever.  
-The game is 60% completed need some fixes,have some bugs (a lot),documentations and refactoring,optimization,sound improvement ...etc
+The game is 60% completed need some fixes,have some bugs (a lot),need documentations and refactoring,optimization,sound improvement ...etc
 
   
 
