@@ -56,12 +56,6 @@
   <li><strong>iOS</strong></li>
 </ul>
 
-# Contact Me 
-
-<ul>
-  <li>saidrh@tutanota.com</li>
-</ul>
-
 # Build/Run
 
 <strong>Requirements</strong>    
