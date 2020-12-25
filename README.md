@@ -35,8 +35,7 @@
 
 <img src="https://github.com/SaidRH/StickmanEpicAdventure/blob/main/Demo/ScreenShot1.png" width="250">  <img src="https://github.com/SaidRH/StickmanEpicAdventure/blob/main/Demo/ScreenShot2.png" width="250"> <img src="https://github.com/SaidRH/StickmanEpicAdventure/blob/main/Demo/ScreenShot3.png" width="250">   
 <img src="https://github.com/SaidRH/StickmanEpicAdventure/blob/main/Demo/ScreenShot4.png" width="250"> <img src="https://github.com/SaidRH/StickmanEpicAdventure/blob/main/Demo/ScreenShot5.png" width="250"> <img src="https://github.com/SaidRH/StickmanEpicAdventure/blob/main/Demo/ScreenShot6.png" width="250">    
-<img src="https://github.com/SaidRH/StickmanEpicAdventure/blob/main/Demo/ScreenShot7.png" width="250">  <img src="https://github.com/SaidRH/StickmanEpicAdventure/blob/main/Demo/ScreenShot8.png" width="250"> <img src="https://github.com/SaidRH/StickmanEpicAdventure/blob/main/Demo/Demo1.png" width="250">   
-<img src="https://github.com/SaidRH/StickmanEpicAdventure/blob/main/Demo/Demo2.png" width="250">  <img src="https://github.com/SaidRH/StickmanEpicAdventure/blob/main/Demo/Demo3.png" width="250">   <img src="https://github.com/SaidRH/StickmanEpicAdventure/blob/main/Demo/Demo4.png" width="250">
+<img src="https://github.com/SaidRH/StickmanEpicAdventure/blob/main/Demo/ScreenShot7.png" width="250">  <img src="https://github.com/SaidRH/StickmanEpicAdventure/blob/main/Demo/ScreenShot8.png" width="250">  
 
 # Trailer 
  
