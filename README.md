@@ -62,3 +62,19 @@
   <li>saidrh[at]tutanota[dot]com</li>
 </ul>
 
+# Build/Run
+<strong>Requirements</strong>    
+<ul>
+<li><a href="https://visualstudio.microsoft.com/" rel="nofollow">Visual Studio</a></li>
+<li><a href="https://store.unity.com/" rel="nofollow">Unity</a></li>  
+<li><a href="https://github.com/SaidRH/StickmanEpicAdventure/blob/main/ProjectSettings/ProjectVersion.txt" rel="nofollow">2019.2.2f1</a></li>  
+</ul>
+
+
+<strong>Run the app</strong>  
+<ul>
+<li>Open the main scene in Unity.</li>
+<li>Build and run the app.</li>
+</ul>
+
+
