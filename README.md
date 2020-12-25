@@ -40,7 +40,7 @@
 
 # Trailer 
  
-[Watch Trailer](https://www.dailymotion.com/video/x7y7ca0)
+[Watch Trailer](https://streamable.com/bc2ccq)
 
 # Made with 
 
