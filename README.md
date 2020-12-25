@@ -59,7 +59,7 @@
 # Contact Me 
 
 <ul>
-  <li>saidrh[at]tutanota[dot]com</li>
+  <li>saidrh@tutanota.com</li>
 </ul>
 
 # Build/Run
