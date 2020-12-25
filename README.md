@@ -59,9 +59,9 @@
 
 <strong>Requirements</strong>    
 <ul>
-<li><a href="https://visualstudio.microsoft.com/" rel="nofollow">Visual Studio 2019</a></li>
-<li><a href="https://github.com/SaidRH/StickmanEpicAdventure/blob/main/ProjectSettings/ProjectVersion.txt" rel="nofollow">Unity 2019.2.2f1</a></li> 
+<li><a href="https://visualstudio.microsoft.com/" rel="nofollow">Visual Studio</a></li>
 <li><a href="https://store.unity.com/" rel="nofollow">Unity</a></li>  
+<li><a href="https://github.com/SaidRH/StickmanEpicAdventure/blob/main/ProjectSettings/ProjectVersion.txt" rel="nofollow">SEE</a></li> 
 </ul>
 
 
