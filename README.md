@@ -39,7 +39,7 @@
 
 # Trailer 
  
-[Watch](https://streamable.com/0x3jq9){:target="_blank"}
+[Watch](https://streamable.com/0x3jq9)
 
 # Made with 
 
