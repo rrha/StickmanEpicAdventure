@@ -61,7 +61,7 @@
 <ul>
 <li><a href="https://visualstudio.microsoft.com/" rel="nofollow">Visual Studio</a></li>
 <li><a href="https://store.unity.com/" rel="nofollow">Unity</a></li>  
-<li><a href="https://github.com/SaidRH/StickmanEpicAdventure/blob/main/ProjectSettings/ProjectVersion.txt" rel="nofollow">ProjectVersion.txt</a></li> 
+<li><a href="https://github.com/SaidRH/StickmanEpicAdventure/blob/main/ProjectSettings/ProjectVersion.txt" rel="nofollow">Project Version</a></li> 
 </ul>
 
 
