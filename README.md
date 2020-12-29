@@ -1,6 +1,6 @@
 # Licence
 
-<p align="center"> You have no right to distribute or sell or monetize the game but you can contribute to improve it. <br>
+<p align="center"> You have no right to distribute or sell or monetize the game but you can contribute to improve it.<br>
 <strong>  (LICENCE COMING SOON!)  </strong>  </p>
 
 # Stickman : Epic Adventure 
